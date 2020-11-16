@@ -73,5 +73,38 @@ h2 {
 }
 
 main p {
-margin-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.hamburger-menu {
+    background-color: salmon;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    transform: translateX(-100%);
+    transition: all 0.35s ease-in-out;
+}
+
+.open-menu {
+    transform: translateX(0%);
+}
+
+.hamburger-menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin: 20px;
+}
+
+.cancel {
+    width: 30px;
+}
+
+.cancel:hover {
+    cursor: pointer;
 }
