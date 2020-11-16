@@ -52,6 +52,38 @@ main {
     padding: 200px 10px;
 }
 
+.et-main {
+    background-image: url(../images/fridge.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: multiply;
+    background-color: grey;
+}
+
+.gg-main {
+    background-image: url(../images/glassball.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: multiply;
+    background-color: grey;
+}
+
+.recipes-main {
+    background-image: url(../images/recipes.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: multiply;
+    background-color: grey;
+}
+
+.cc-main {
+    background-image: url(../images/cc.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: multiply;
+    background-color: grey;
+}
+
 h2 {
     margin: 0;
     font-size: 30px;
