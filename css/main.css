@@ -27,6 +27,52 @@ h1 {
     padding-left: 20px;
 }
 
+h3 {
+    padding-top: 35px;
+}
+
+.ggtitle {
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+
+.ggh-1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 80px;
+    padding-bottom: 30px;
+}
+
+.peanut {
+    border-radius: 100px;
+    width: 400px;
+    padding-top: 40px;
+}
+
+.tumeric {
+    width: 400px;
+    border-radius: 100px;
+    padding-top: 40px;
+}
+
+.wine{
+    width: 430px;
+    border-radius: 100px;
+    padding-top: 40px;
+}
+.ggbuy{
+    color: white;
+    text-decoration: none;
+    border: 1px white solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.ggbuy:hover {
+    background-color: white;
+    color: salmon;
+}
+
 .login {
     color: white;
     text-decoration: none;
@@ -63,9 +109,13 @@ main {
 .gg-main {
     background-image: url(../images/glassball.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 200vh;
     background-blend-mode: multiply;
     background-color: grey;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .recipes-main {
