@@ -298,7 +298,8 @@ th {
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;    
+    
 }
 
 .interact {
@@ -309,6 +310,7 @@ th {
     border-radius: 5px;
     transition: all 0.2s ease-in-out;
     margin-bottom: 10px;
+    margin: 0 10px;
 }
 
 .interact:hover {
